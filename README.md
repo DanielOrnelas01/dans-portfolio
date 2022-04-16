@@ -1,0 +1,2 @@
+## dans portfolio
+in this challenge I used semantic html elements to build a skeleton for my portfolio website, used css to give the page some pop and responsiveness. I also used media quieres for smaller screen displays such as mobile devices etc..

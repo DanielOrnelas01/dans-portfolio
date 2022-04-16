@@ -186,13 +186,9 @@ footer a {
     padding-left: 10px;
     grid-column: 2 / span 3;
     grid-row: 1 / span 2;
+    align-items: center;
 }
 
-.about-me-item.p2 {
-    padding-left: 10px;
-    grid-column: 2 / span 3;
-    grid-row: 3 / span 2;
-}
 
 /* End of FLEX CSS Main body code About me*/
 
@@ -234,7 +230,7 @@ footer a {
     display: flex;
     align-items: flex-end;
     padding-left: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     text-align: left;
     border: .25vw solid var(--rgba-border-color-opacity);
 }
@@ -426,15 +422,13 @@ footer a {
         padding-top: 5px;
         grid-column: 1 / span 3;
         grid-row: 2 / span 2;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+       
     }
 
-    .about-me-item.p2 {
-        padding-top: 5px;
-        grid-column: 1 / span 3;
-        grid-row: 4 / span 2;
 
-        padding-bottom: 10px;
-    }
 
     .work-grid-container .work-item-project.ghost-item:hover {
         opacity: .8;
@@ -554,11 +548,10 @@ footer a {
 
     .about-me-item.p1 {
         padding-left: 0px;
+    
     }
 
-    .about-me-item.p2 {
-        padding-left: 0px;
-    }
+
 
     .work-wrapper {
         margin-top: 15px;
@@ -618,17 +611,6 @@ footer a {
         text-align: center;
     }
 
-    .work-item-project.ghost-item {
-        grid-column: 1 /span 3;
-        grid-row: 11 / span 1;
-        background-image: url("../images/pexels-luizclas-556665.jpg");
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        opacity: 1;
-        background-position: scroll;
-        text-align: center;
-    }
 
     .footer-wrapper {
         margin-top: 10px;
