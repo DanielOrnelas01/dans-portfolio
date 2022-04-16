@@ -38,7 +38,7 @@
         <!-- Flex Container-->
         <div class="hero-subtitle">
             <!-- Span used to provide a span background as well as change the opacity of both the span and the text -->
-            <span class="span-background opacity">Have a good day Everyone!</span>
+            <span class="span-background opacity">Im a developer</span>
         </div>
     </section>
     <!-- About Me section-->
@@ -51,8 +51,9 @@
                 <p>Hi, my name is Daniel thank you for visiting my portfolio.</br>
                     Here you will find a compilation of all of the projects I have been apart of</br>
                     I'm currently 24 and live in california.</p>
+                <img class="my-image" src="./assets/images/IMG_1830.jpg">
+
             </div>
-        </div>
     </article>
     <!-- My Portfolio section-->
     <article>
@@ -65,8 +66,8 @@
                     <p> Portfolio </p>
                 </div>
 
-                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page"
-                    title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="challenge-1-refactor">
+                <div onclick="projectClicked('challenge-1')" alt="Image Displaying the Horiseon landing Page"
+                    style="cursor: pointer;" class="challenge-1-refactor">
                     <span class="span-background">
 
                         <h3>Horiseon Services</h3>
@@ -75,23 +76,22 @@
                 </div>
 
                 <div onclick="projectClicked('run-buddy')" alt="Image Displaying the RUN BUDDY landing Page"
-                    title="RUN BUDDY landing page" style="cursor: pointer;" class=" project-run-buddy">
+                    style="cursor: pointer;" class=" project-run-buddy">
                     <span class="span-background">
                         <h3>Run Buddy</h3>
                         <span class="lower-text">HTML/CSS</span>
                     </span>
                 </div>
 
-                <div onclick="projectClicked('password-generator')"
-                    alt="Image Displaying the Password Generator landing Page" title="Password Generator landing page"
-                    style="cursor: pointer;" class="coming-soon1">
+                <div onclick="projectClicked('dans-portfolio')" alt="Image Displaying dans portfolio landing Page"
+                    style="cursor: pointer;" class="dans-portfolio">
                     <span class="span-background">
-                        <h3>Coming soon</h3>
-                        <span class="lower-text">CSS/Javascript</span>
+                        <h3>Daniels Portfolio</h3>
+                        <span class="lower-text">HTML/CSS</span>
                     </span>
                 </div>
-                <div onclick="projectClicked('web-api-code-quiz')"
-                    alt="Image Displaying the Web Api Code Quiz landing Page" title="Web Api Code Quiz landing page"
+                <div onclick="projectClicked('dans-portfolio')"
+                    alt="Image Displaying the Web Api Code Quiz landing Page" title="Coming soon landing page"
                     style="cursor: pointer;" class="coming-soon2">
                     <span class="span-background">
                         <h3>Coming Soon</h3>
@@ -129,6 +129,24 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+
+            if (input == "challenge-1") {
+                window.open("http://127.0.0.1:5502/index.html");
+            } else if (input == "run-buddy") {
+                window.open("https://lernantino.github.io/run-buddy/");
+            } else if (input == 'password-generator') {
+                window.open("http://127.0.0.1:5501/index.html");
+            } else if (input == 'dans-portfolio') {
+                window.open("http://127.0.0.1:5501/index.html");
+            } else if (input == 'dans-portfolio') {
+            }
+        };
+
+    </script>
 
 
 </body>
