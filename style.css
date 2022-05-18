@@ -267,7 +267,7 @@ footer a {
     grid-column: 4 / span 1;
     grid-row: 1 / span 3;
 
-    background-image: url("./assets/images/under\ construction.jpg");
+    background-image: url("./assets/images/chuck.jpg");
     background-size: 300px 200px, cover;
     display: flex;
     align-items: flex-end;
