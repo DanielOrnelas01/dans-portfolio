@@ -222,10 +222,10 @@ footer a {
     border-right: 2px solid var(--about-me-work-border);
 }
 
-.challenge-1-refactor {
+.bark-date {
     grid-column: 2 / span 2;
     grid-row: 1 / span 6;
-    background-image: url("./assets/images/horiseon.jpg");
+    background-image: url("./assets/images/barkdate.jpg");
     background-size: cover;
     display: flex;
     align-items: flex-end;
